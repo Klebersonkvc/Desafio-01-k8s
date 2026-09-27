@@ -1,0 +1,10 @@
+﻿apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: desafio1-config
+data:
+  PORT: "3000"
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "api_database"
+  POSTGRES_DB: "api_database"
